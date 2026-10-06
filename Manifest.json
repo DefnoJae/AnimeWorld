@@ -1,1 +1,25 @@
-
+{
+  "id": "watchanimeworld",
+  "name": "WatchAnimeWorld",
+  "version": "1.0.3",
+  "manifestURI": "https://raw.githubusercontent.com/DefnoJae/AnimeWorld/main/Manifest.json",
+  "language": "typescript",
+  "type": "onlinestream-provider",
+  "description": "Provider for WatchAnimeWorld (Hindi/Multi-Audio Anime)",
+  "author": "displaygamer / DefnoJae",
+  "icon": "https://raw.githubusercontent.com/DefnoJae/AnimeWorld/main/icon.png",
+  "website": "https://watchanimeworld.one/",
+  "readme": "https://raw.githubusercontent.com/DefnoJae/AnimeWorld/main/README.md",
+  "lang": "multi",
+  "payloadURI": "https://raw.githubusercontent.com/DefnoJae/AnimeWorld/main/payload.ts",
+  "userConfig": {
+    "version": 1,
+    "requiresConfig": false,
+    "fields": [{
+      "name": "baseUrl",
+      "label": "Base URL",
+      "type": "text",
+      "default": "https://watchanimeworld.one"
+    }]
+  }
+}
