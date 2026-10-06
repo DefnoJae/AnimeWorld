@@ -1,0 +1,24 @@
+{
+  "name": "watchanimeworld",
+  "version": "1.0.3",
+  "description": "WatchAnimeWorld Provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefnoJae/AnimeWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DefnoJae/AnimeWorld/issues"
+  },
+  "homepage": "https://github.com/DefnoJae/AnimeWorld#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "node-fetch": "^2.7.0"
+  }
+}
